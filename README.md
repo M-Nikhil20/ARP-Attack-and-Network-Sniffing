@@ -24,12 +24,14 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
-![Screenshot 2024-04-22 222620](https://github.com/R-Udayakumar/ARP-Attack-and-Network-Sniffing/assets/118708024/332ab58a-8689-41fa-8708-9e20004a8f96)
+![image](https://github.com/M-Nikhil20/ARP-Attack-and-Network-Sniffing/assets/118707852/d0459999-2f5c-40fd-9ab4-f6399b90ec7b)
+
 
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
-![image](https://github.com/R-Udayakumar/ARP-Attack-and-Network-Sniffing/assets/118708024/82dceb7d-090e-4c76-b9e2-a91ad13249f0)
+![image](https://github.com/M-Nikhil20/ARP-Attack-and-Network-Sniffing/assets/118707852/8ddfb282-cc74-41a6-a95c-76e92fde4df8)
+
 
 
  dsniff:
@@ -40,7 +42,7 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
-![image](https://github.com/R-Udayakumar/ARP-Attack-and-Network-Sniffing/assets/118708024/a2cb6d0a-801c-48d5-aa23-3883aadc9d3c)
+![image](https://github.com/M-Nikhil20/ARP-Attack-and-Network-Sniffing/assets/118707852/5c01fb44-be1e-40ba-9948-86601d0bb7f5)
 
 
 
@@ -48,12 +50,12 @@ In Metasploit open the ftp console as below. Also you can try other ftp websites
 In Kali issue the following commands:
 sudo dsnifff
 ## OUTPUT:
-![image](https://github.com/R-Udayakumar/ARP-Attack-and-Network-Sniffing/assets/118708024/11216821-d848-4cab-b11d-da3a651ba779)
+![image](https://github.com/M-Nikhil20/ARP-Attack-and-Network-Sniffing/assets/118707852/3076865b-0e9e-4223-a638-d1d238824e70)
 
 
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
-![Screenshot 2024-04-24 225945](https://github.com/R-Udayakumar/ARP-Attack-and-Network-Sniffing/assets/118708024/36b29d59-d5be-4f93-9c80-c7f35f8a4e9d)
+![image](https://github.com/M-Nikhil20/ARP-Attack-and-Network-Sniffing/assets/118707852/96e2fb1b-0d0e-475c-81e0-77de5b14800a)
 
 
 
